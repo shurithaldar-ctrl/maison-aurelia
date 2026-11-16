@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css"><title>Secure checkout – Maison Aurelia</title></head><body>
+<main class="co"><div>
+<div class="sim"><b>⚠ Simulation mode</b> – no real money is charged and nothing is sent to a bank. Never enter real card details; use the test details below.
+<details><summary>Show test details</summary><ul><li><b>Card:</b> 4111 1111 1111 1111 succeeds · 4000 0000 0000 0002 is declined · 4000 0000 0000 9995 has insufficient funds. Any future expiry, any 3-digit CVV.</li><li><b>UPI:</b> demo@okaxis succeeds · demo@fail is rejected.</li><li><b>Net banking:</b> pick any bank, any user ID and password.</li><li><b>OTP</b> for card and net banking: <b>123456</b></li></ul></details></div>
+<h2>Choose payment method</h2><div class="tabs pm" id="pm"></div><div class="card" id="pane"></div><p class="er" id="cerr"></p><button class="btn big" id="paybtn">Pay</button></div>
+<aside class="card" id="summary"></aside></main>
+<div class="modal" id="modal"><div class="mbox" id="mbox"></div></div>
+<script src="common.js"></script><script src="checkout.js"></script></body></html>

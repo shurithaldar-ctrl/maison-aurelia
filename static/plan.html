@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css"><title>Plan an occasion – Maison Aurelia</title></head><body>
+<section><h2>Plan Your Occasion</h2><p class="mut">Choose the occasion and a few preferences. We’ll recommend a table, a menu and the ambience, then you can edit everything.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:start"><div class="card"><label>Occasion</label><div class="opts" id="oc"></div>
+<div class="row"><div><label>Date</label><input type="date" id="d"></div><div><label>Time</label><select id="tm"><option>6:30 pm</option><option>7:30 pm</option><option selected>8:00 pm</option><option>8:30 pm</option><option>9:30 pm</option></select></div><div><label>Guests</label><select id="g"></select></div></div>
+<div class="row"><div><label>Budget per person (food)</label><select id="bu"></select></div><div><label>Food preference</label><select id="di"><option value="all">Vegetarian and non-vegetarian</option><option value="noBeef">No beef</option><option value="veg">Vegetarian only</option></select></div><div><label>Spice level</label><select id="sp"><option value="mild">Mild</option><option value="medium" selected>Medium</option><option value="spicy">Spicy</option></select></div></div>
+<p><label style="display:inline"><input type="checkbox" id="dr" checked style="width:auto"> Include drinks</label> &nbsp; <label style="display:inline"><input type="checkbox" id="af" style="width:auto"> Alcohol-free</label></p>
+<button class="btn big" id="go">Get recommendations</button></div><div id="res"></div></div></section>
+<script src="common.js"></script><script src="plan.js"></script></body></html>

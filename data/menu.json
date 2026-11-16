@@ -1,0 +1,411 @@
+[
+ {
+  "id": 1,
+  "c": "Chicken Dishes",
+  "n": "Mango Chicken",
+  "p": 12.25,
+  "d": "Boneless chicken cooked in mango and ginger sauce.",
+  "t": [
+   "chicken",
+   "mild",
+   "romantic"
+  ]
+ },
+ {
+  "id": 2,
+  "c": "Chicken Dishes",
+  "n": "Chicken La-Jewab",
+  "p": 13.25,
+  "d": "Boneless chicken and chunks of apple cooked in ginger sauce with nuts.",
+  "t": [
+   "chicken",
+   "mild",
+   "celebration",
+   "nuts"
+  ]
+ },
+ {
+  "id": 3,
+  "c": "Chicken Dishes",
+  "n": "Chicken Kashmiri",
+  "p": 12.95,
+  "d": "Boneless chicken cooked in ginger and peach sauce.",
+  "t": [
+   "chicken",
+   "mild",
+   "romantic"
+  ]
+ },
+ {
+  "id": 4,
+  "c": "Chicken Dishes",
+  "n": "Chicken Coconut Curry",
+  "p": 12.95,
+  "d": "Boneless chicken cooked in coconut milk with ginger, garlic and spices.",
+  "t": [
+   "chicken",
+   "mild",
+   "family"
+  ]
+ },
+ {
+  "id": 5,
+  "c": "Chicken Dishes",
+  "n": "Chicken Makhani",
+  "p": 13.95,
+  "d": "Chicken breast cooked in a sauce of tomatoes and herbs.",
+  "t": [
+   "chicken",
+   "mild",
+   "romantic",
+   "family",
+   "business"
+  ]
+ },
+ {
+  "id": 6,
+  "c": "Chicken Dishes",
+  "n": "Chicken Vindaloo",
+  "p": 13.95,
+  "d": "Chicken breast and thigh served with potatoes in a spicy sauce.",
+  "t": [
+   "chicken",
+   "spicy"
+  ]
+ },
+ {
+  "id": 7,
+  "c": "Chicken Dishes",
+  "n": "Chicken Tandoori",
+  "p": 11.95,
+  "d": "Half boneless chicken marinated in spices and cooked in a tandoor oven.",
+  "t": [
+   "chicken",
+   "medium",
+   "tandoor",
+   "celebration",
+   "business",
+   "light"
+  ]
+ },
+ {
+  "id": 8,
+  "c": "Lamb Dishes",
+  "n": "Mango Lamb",
+  "p": 12.25,
+  "d": "Boneless lamb cooked in mango and ginger sauce.",
+  "t": [
+   "lamb",
+   "mild",
+   "romantic"
+  ]
+ },
+ {
+  "id": 9,
+  "c": "Lamb Dishes",
+  "n": "Lamb La-Jewab",
+  "p": 13.25,
+  "d": "Boneless lamb and chunks of apple cooked in ginger sauce with nuts.",
+  "t": [
+   "lamb",
+   "mild",
+   "celebration",
+   "nuts"
+  ]
+ },
+ {
+  "id": 10,
+  "c": "Lamb Dishes",
+  "n": "Lamb Kashmiri",
+  "p": 12.95,
+  "d": "Boneless lamb cooked in ginger and peach sauce.",
+  "t": [
+   "lamb",
+   "mild",
+   "romantic"
+  ]
+ },
+ {
+  "id": 11,
+  "c": "Lamb Dishes",
+  "n": "Lamb Coconut Curry",
+  "p": 12.95,
+  "d": "Boneless lamb cooked in coconut milk with ginger, garlic and spices.",
+  "t": [
+   "lamb",
+   "mild",
+   "family"
+  ]
+ },
+ {
+  "id": 12,
+  "c": "Lamb Dishes",
+  "n": "Lamb Makhani",
+  "p": 13.95,
+  "d": "Lamb cooked in a sauce of tomatoes and herbs.",
+  "t": [
+   "lamb",
+   "mild",
+   "business",
+   "family"
+  ]
+ },
+ {
+  "id": 13,
+  "c": "Lamb Dishes",
+  "n": "Lamb Vindaloo",
+  "p": 13.95,
+  "d": "Lamb served with potatoes in a spicy sauce.",
+  "t": [
+   "lamb",
+   "spicy"
+  ]
+ },
+ {
+  "id": 14,
+  "c": "Beef Dishes",
+  "n": "Beef Curry",
+  "p": 13.25,
+  "d": "Boneless beef cooked in a curry sauce.",
+  "t": [
+   "beef",
+   "medium",
+   "family"
+  ]
+ },
+ {
+  "id": 15,
+  "c": "Beef Dishes",
+  "n": "Beef Mango Curry",
+  "p": 14.25,
+  "d": "Boneless beef chunks cooked in a curry mango sauce.",
+  "t": [
+   "beef",
+   "mild",
+   "celebration"
+  ]
+ },
+ {
+  "id": 16,
+  "c": "Beef Dishes",
+  "n": "Beef Vindaloo",
+  "p": 13.95,
+  "d": "Boneless beef chunks and potato cooked in a spicy sauce.",
+  "t": [
+   "beef",
+   "spicy"
+  ]
+ },
+ {
+  "id": 17,
+  "c": "Beef Dishes",
+  "n": "Beef Broccoli",
+  "p": 13.95,
+  "d": "Boneless beef chunks and broccoli served in a spicy sauce.",
+  "t": [
+   "beef",
+   "medium",
+   "business"
+  ]
+ },
+ {
+  "id": 18,
+  "c": "Beef Dishes",
+  "n": "Beef Shai Korma",
+  "p": 14.25,
+  "d": "Boneless beef cooked in a spicy sauce with almonds and cashews.",
+  "t": [
+   "beef",
+   "mild",
+   "romantic",
+   "celebration",
+   "nuts"
+  ]
+ },
+ {
+  "id": 19,
+  "c": "Beef Dishes",
+  "n": "Beef Saagwala",
+  "p": 14.95,
+  "d": "Boneless beef cooked with spinach and herbs.",
+  "t": [
+   "beef",
+   "medium",
+   "family"
+  ]
+ },
+ {
+  "id": 20,
+  "c": "Vegetable Dishes",
+  "n": "Vegetable Tandoori",
+  "p": 9.95,
+  "d": "Vegetable medley marinated in spices and cooked in the tandoor oven.",
+  "t": [
+   "veg",
+   "medium",
+   "tandoor",
+   "light",
+   "business",
+   "celebration"
+  ]
+ },
+ {
+  "id": 21,
+  "c": "Vegetable Dishes",
+  "n": "Vegetable Biryani",
+  "p": 9.25,
+  "d": "Vegetable medley topped with cashews and cilantro, served over basmati rice.",
+  "t": [
+   "veg",
+   "medium",
+   "rice",
+   "family",
+   "celebration",
+   "nuts"
+  ]
+ },
+ {
+  "id": 22,
+  "c": "Vegetable Dishes",
+  "n": "Vegetable Soup",
+  "p": 4.5,
+  "d": "Hot soup made from fresh vegetables, lentils, spices and herbs.",
+  "t": [
+   "veg",
+   "soup",
+   "mild",
+   "light",
+   "business"
+  ]
+ },
+ {
+  "id": 23,
+  "c": "Vegetable Dishes",
+  "n": "Coconut Soup",
+  "p": 5.25,
+  "d": "Hot soup made with coconut and served with pistachios.",
+  "t": [
+   "veg",
+   "soup",
+   "mild",
+   "light",
+   "romantic",
+   "nuts"
+  ]
+ },
+ {
+  "id": 24,
+  "c": "Vegetable Dishes",
+  "n": "Saag Paneer Curry",
+  "p": 9.95,
+  "d": "Spinach and homemade cheese cooked in a curry sauce.",
+  "t": [
+   "veg",
+   "mild",
+   "family",
+   "romantic"
+  ]
+ },
+ {
+  "id": 25,
+  "c": "Vegetable Dishes",
+  "n": "Saag Aloo Curry",
+  "p": 8.95,
+  "d": "Spinach and potato cooked in a curry sauce.",
+  "t": [
+   "veg",
+   "mild",
+   "family"
+  ]
+ },
+ {
+  "id": 26,
+  "c": "Vegetable Dishes",
+  "n": "Vegetable Curry",
+  "p": 8.95,
+  "d": "Mixed vegetable cooked in a curry sauce.",
+  "t": [
+   "veg",
+   "medium",
+   "family"
+  ]
+ },
+ {
+  "id": 27,
+  "c": "Signature Drinks",
+  "n": "Smoked Old Fashioned",
+  "p": 11.5,
+  "d": "Bourbon, maple and cedar smoke under a glass cloche.",
+  "t": [
+   "drink",
+   "cocktail",
+   "alcohol",
+   "celebration"
+  ]
+ },
+ {
+  "id": 28,
+  "c": "Signature Drinks",
+  "n": "Lavender Cloud",
+  "p": 10.5,
+  "d": "Gin, lavender, lemon and egg-white foam.",
+  "t": [
+   "drink",
+   "cocktail",
+   "alcohol",
+   "romantic"
+  ]
+ },
+ {
+  "id": 29,
+  "c": "Signature Drinks",
+  "n": "Saffron Spritz",
+  "p": 9.75,
+  "d": "Prosecco, saffron syrup and orange bitters.",
+  "t": [
+   "drink",
+   "cocktail",
+   "alcohol",
+   "celebration"
+  ]
+ },
+ {
+  "id": 30,
+  "c": "Signature Drinks",
+  "n": "Vintage Champagne (glass)",
+  "p": 16.0,
+  "d": "Brut with brioche and toasted almond notes.",
+  "t": [
+   "drink",
+   "alcohol",
+   "romantic",
+   "celebration"
+  ]
+ },
+ {
+  "id": 31,
+  "c": "Signature Drinks",
+  "n": "Garden Zero",
+  "p": 6.5,
+  "d": "Cucumber, basil, elderflower and tonic. Alcohol-free.",
+  "t": [
+   "drink",
+   "mocktail",
+   "romantic",
+   "family"
+  ]
+ },
+ {
+  "id": 32,
+  "c": "Signature Drinks",
+  "n": "Rose Saffron Cooler",
+  "p": 6.25,
+  "d": "Rose, saffron, lime and sparkling water. Alcohol-free.",
+  "t": [
+   "drink",
+   "mocktail",
+   "celebration",
+   "family"
+  ]
+ }
+]

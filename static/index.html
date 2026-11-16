@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css"><title>Maison Aurelia – Fine Dining</title></head><body>
+<header class="hero"><div class="hero-bg"></div><canvas id="dust"></canvas>
+<p class="eyebrow">EST. 2014 · INDIAN FINE DINING</p><h1>Maison Aurelia</h1><div class="orn"></div>
+<p class="lead">Candlelit evenings, tandoor-fired classics and signature cocktails. Reserve your table, pre-order your feast and let our concierge plan the perfect occasion.</p>
+<p class="cta"><a class="btn" href="#reserve">Reserve a table</a> <a class="btn o" href="menu.html">View menu</a> <a class="btn o" href="plan.html">Plan an occasion</a></p></header>
+
+<section id="about" class="reveal"><h2>The Restaurant &amp; Chef</h2>
+<div class="grid"><div class="card hv"><h3>Chef Elara Voss</h3><p class="mut">Trained in Lyon and Kyoto, Chef Elara brings French technique to the classics of Indian cooking. Her tandoor, her sauces built from ginger, mango and coconut, and her daily-changing specials have earned the restaurant a loyal following.</p></div>
+<div class="card hv"><h3>Facilities</h3><div class="chips"><span class="chip">Sunset terrace</span><span class="chip">Private dining room</span><span class="chip">Signature cocktail bar</span><span class="chip">Live music (Fri–Sun)</span><span class="chip">Valet parking</span><span class="chip">Wheelchair accessible</span><span class="chip">Vegetarian menu</span><span class="chip">Free Wi‑Fi</span></div></div>
+<div class="card hv"><h3>Find us</h3><p class="mut" id="addr"></p><a class="btn" id="mapA" target="_blank" rel="noopener">Open in Google Maps</a> <a class="btn o" id="dirA" target="_blank" rel="noopener">Directions</a><p class="sm mut">Open daily 6:30 pm – 11:30 pm</p></div></div></section>
+
+<section class="reveal"><h2>Chef’s Favourites</h2><p class="mut">A taste of the menu. Add dishes to your order and edit them on the menu page.</p><div class="grid" id="feat"></div><p><a class="btn o" href="menu.html">See the full menu →</a></p></section>
+
+<section class="reveal"><h2>Celebrate With Us</h2><p class="mut">Tell us the occasion and our planner suggests the table, the dishes and the ambience.</p><div class="grid" id="occ"></div></section>
+
+<section id="reserve" class="reveal"><h2>Reserve a Table</h2><div id="pend"></div>
+<div class="row"><div><label>Date</label><input type="date" id="d"></div><div><label>Time</label><select id="tm"><option>6:30 pm</option><option>7:30 pm</option><option selected>8:00 pm</option><option>8:30 pm</option><option>9:30 pm</option></select></div><div><label>Guests</label><select id="g"></select></div></div>
+<div class="leg"><span><i class="live"></i><b id="cnt"></b></span><span style="color:var(--free)">● Available</span><span style="color:var(--res)">● Reserved</span><span style="color:var(--gold)">● Selected</span><span id="upd"></span></div>
+<div class="plan" id="plan"></div>
+<div class="grid"><div class="card" id="sumBox"></div>
+<div class="card"><h3>Your details</h3><div class="row" style="margin-top:10px"><div><label>Name</label><input id="nm"></div><div><label>Phone</label><input id="ph" type="tel"></div></div><p class="sm mut">Next you’ll choose a payment method on a secure checkout page. Your table is held for 10 minutes while you pay.</p><button class="btn big" id="go">Proceed to payment</button><p class="er" id="err"></p></div></div></section>
+
+<section id="reviews" class="reveal"><h2>Guest Reviews</h2><p class="mut" id="avg"></p>
+<div class="grid"><div class="card"><h3>Write a review</h3><div class="row" style="margin-top:10px"><div><label>Name</label><input id="rn"></div><div><label>Food</label><select id="rf"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></div><div><label>Dining experience</label><select id="re"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></div></div><textarea id="rc" rows="3" placeholder="Tell us about your evening…"></textarea><p><button class="btn" id="rs">Submit review</button></p></div><div class="card" id="rvl"></div></div></section>
+
+<section id="contact" class="reveal"><h2>Contact</h2><div class="grid"><div class="card"><p>📞 +91 00000 00000<br>✉️ hello@maisonaurelia.example<br>📍 <span id="addr2"></span></p><p class="mut sm">Allergies, large parties or special occasions? Send us a note and we’ll reply within a day.</p></div>
+<div class="card"><div class="row"><div><label>Name</label><input id="cnm"></div><div><label>Email</label><input id="cem" type="email"></div></div><textarea id="cms" rows="3" placeholder="Your query"></textarea><p><button class="btn" id="cs">Send message</button> <span id="cok" style="color:var(--free)"></span></p></div></div></section>
+<script src="common.js"></script><script src="home.js"></script></body></html>
